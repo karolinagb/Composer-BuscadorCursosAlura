@@ -17,5 +17,6 @@ $crawler->addHtmlContent($html); //Adicionando html ao leitor do dom
 $cursos = $crawler->filter('span.card-curso__nome');
 
 foreach ($cursos as  $curso) {
+    //lendo o texto do html selecionado
     echo $curso->textContent . PHP_EOL;
 }
