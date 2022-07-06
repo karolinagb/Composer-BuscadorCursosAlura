@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9c913047a0ab254041b4d32b05d87f3293cb3e6e',
+        'reference' => '3e44562ce81c6b017d6f86052088dc3810a5c36d',
         'name' => 'karolinagb/buscador-cursos',
         'dev' => true,
     ),
@@ -43,7 +43,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9c913047a0ab254041b4d32b05d87f3293cb3e6e',
+            'reference' => '3e44562ce81c6b017d6f86052088dc3810a5c36d',
             'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
@@ -107,6 +107,15 @@
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'dev_requirement' => false,
+        ),
+        'symfony/css-selector' => array(
+            'pretty_version' => 'v6.1.0',
+            'version' => '6.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/css-selector',
+            'aliases' => array(),
+            'reference' => '05c40f02f621609404b8820ff8bc39acb46e19cf',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
