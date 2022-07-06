@@ -1,0 +1,12 @@
+{
+    "name": "karolinagb/buscador-cursos",
+    "description": "Projeto que buscar os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Karolina Gomes Bento",
+            "email": "karolina_bp@hotmail.com"
+        }
+    ],
+    "require": {}
+}
