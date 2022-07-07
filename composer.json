@@ -18,6 +18,10 @@
         [
             "./Teste.php"
         ],
+        "files":
+        [
+            "./functions.php"
+        ],
         "psr-4": {
             "Alura\\BuscadorDeCursos\\": "src/"
         }

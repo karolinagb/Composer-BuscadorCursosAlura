@@ -2,8 +2,8 @@
 
 require 'vendor/autoload.php';
 
-Teste::teste();
-exit();
+// Teste::teste();
+// exit();
 
 use Alura\BuscadorDeCursos\Buscador;
 use GuzzleHttp\Client;
@@ -18,5 +18,5 @@ $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
 foreach ($cursos as  $curso) {
     //lendo o texto do html selecionado
-    echo $curso . PHP_EOL;
+    exibeMensagem($curso . PHP_EOL);
 }
