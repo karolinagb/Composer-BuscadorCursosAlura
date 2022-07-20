@@ -1,10 +1,12 @@
 <?php
 
-use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7\Stream;
-use Symfony\Component\DomCrawler\Crawler;
-use Alura\BuscadorDeCursos\Buscador;
+use GuzzleHttp\ClientInterface;
 use PHPUnit\Framework\TestCase;
+use Alura\BuscadorDeCursos\Buscador;
+use Psr\Http\Message\StreamInterface;
+use Psr\Http\Message\ResponseInterface;
+use Symfony\Component\DomCrawler\Crawler;
 
 class TestBuscadorDeCursos extends TestCase
 {
