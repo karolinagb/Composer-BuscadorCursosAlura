@@ -33,7 +33,15 @@
     },
     "scripts":{
         "phpcs": "phpcs --standard=PSR12 src/",
-        "phan" : "phan --alow-polyfill-parser",
-        "test": "phpunit tests\\TestBuscadorDeCursos.php"
+        "phan" : "phan --allow-polyfill-parser",
+        "test": "phpunit tests\\TestBuscadorDeCursos.php",
+        "check": [
+            "@phan",
+            "@cs",
+            "@test"
+        ]
+    },
+    "scripts-descriptions":{
+        "check": "Rodas as verificações do código. PHAN, PHPCS e PHPUNIT"
     }
 }
