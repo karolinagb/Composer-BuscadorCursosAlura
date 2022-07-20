@@ -9,11 +9,11 @@ class Buscador
 {
     private $httpClient;
     private $crawler;
-    
+
     public function __construct(ClientInterface $httpClient, Crawler $crawler)
     {
-        $this->httpClient = $httpClient;   
-        $this->crawler = $crawler;   
+        $this->httpClient = $httpClient;
+        $this->crawler = $crawler;
     }
 
     public function buscar(string $url): array
@@ -32,8 +32,7 @@ class Buscador
         //Não posso retornar elementos porque ele não é um array de string, ele é um array de elementos do dom
         $cursos = [];
 
-        foreach ($elementoCursos as  $elemento) 
-        {
+        foreach ($elementoCursos as $elemento) {
             $cursos[] = $elemento->textContent;
         }
 

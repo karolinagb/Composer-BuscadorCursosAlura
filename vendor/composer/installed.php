@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5c695b60efef5d78c6a05e54293d1aae07e65664',
+        'reference' => 'e7ba295d6f844c5b2944c930942e008be12f63b3',
         'name' => 'karolinagb/buscador-cursos',
         'dev' => true,
     ),
@@ -52,7 +52,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5c695b60efef5d78c6a05e54293d1aae07e65664',
+            'reference' => 'e7ba295d6f844c5b2944c930942e008be12f63b3',
             'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
@@ -386,6 +386,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+            'dev_requirement' => true,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.7.1',
+            'version' => '3.7.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'reference' => '1359e176e9307e906dc3d890bcc9603ff6d90619',
             'dev_requirement' => true,
         ),
         'symfony/css-selector' => array(
