@@ -39,7 +39,9 @@
             "@phan",
             "@cs",
             "@test"
-        ]
+        ],
+        "ls": "dir",
+        "exibe-cursos":"Alura\\BuscadorDeCursos::buscar"
     },
     "scripts-descriptions":{
         "check": "Rodas as verificações do código. PHAN, PHPCS e PHPUNIT"
