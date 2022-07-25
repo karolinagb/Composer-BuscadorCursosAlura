@@ -1,7 +1,5 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
 namespace Alura\BuscadorDeCursos;
 
 use GuzzleHttp\ClientInterface;

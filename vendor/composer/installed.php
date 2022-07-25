@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '414f0568347ea4c12288fd7ad5d5705cb6017182',
+        'reference' => '7c1f46a6d66f5a63923be0ffb3406e4829323334',
         'name' => 'karolinagb/buscador-cursos',
         'dev' => true,
     ),
@@ -88,7 +88,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '414f0568347ea4c12288fd7ad5d5705cb6017182',
+            'reference' => '7c1f46a6d66f5a63923be0ffb3406e4829323334',
             'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
